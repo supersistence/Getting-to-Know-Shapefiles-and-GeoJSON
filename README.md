@@ -1,5 +1,11 @@
-## Instructions for Adding a Project to Your Portfolio
-### Creating the repository on your computer.
+# Guide to Creating (and Publishing) Projects
+
+Each sprint in the course will involve creating a new project. This template includes two resources.
+1. Instructions on how to create your project locally and publish it to your personal github.
+1. A template for the information you want to share about your project (at the bottom below these instructions which you will eventually delete)
+
+
+#### Creating the repository on your computer.
 
 1. On the right hand side of the screen click the green "Clone or download" drop down.
 2. Click "open in Desktop"
@@ -11,8 +17,8 @@
 5. Click "clone"
   - This will clone your repository to your local computer and will rename it to your desired folder name.
 
-### Setting up Your Project Repository on Your Personal Github Account.
-##### Since you will be pushing this folder to your own github website you will need to have a repository to place it into.
+#### Setting up Your Project Repository on Your Personal Github Account.
+Since you will be pushing this folder to your own github website you will need to have a repository to place it into.
 1. Go to your personal github account - https//github.com/YourUsername
 2. In the top right hand corner click the __+__ sign
 3. Click "new repository"
@@ -28,7 +34,7 @@
 7. Underneath this heading you will see "HTTP" - on the right hand side click the copy to clipboard icon.
 8. Go back to your Github desktop app.
 
-### Linking your local folder and customized github repository
+#### Linking your local folder and customized github repository
 1. In your github desktop task bar click on __repository > repository settings__. Under the "Remote" tab paste your personalized repository.
 
       For Example:
@@ -42,14 +48,17 @@
 
 __You did it! Good job!__
 
-### Making changes to your repository.
-#### You are now ready to make changes to your project.
+#### Making changes to your repository.
+You are now ready to make changes to your project.
 1. We have created a template for you at the bottom of this tutorial, so eventually you will delete these instructions __but not yet__.
 2. Open the README.md file in ATOM (or another editor).
   - If you open in Atom you will be able to preview the Markdown text but pressing CTR+SHIFT+M.
     - You can easily find the README.md file to open by clicking the link to "open this repository in finder" and then opening README.md in your text editor of choice.
 2. In the area below these instructions in README.md - fill in the blanks explaining your project ie title, date, author, and project description.
 3. Save your work!
+
+#### Publishing your changes
+
 3. Once you've filled in these areas (and deleted these instructions) you will be ready to commit and push your repository.
 4. Go to the Github desktop app and you will now see that your changes are being tracked (if you don't see any changes it is probably because you didn't save your work).
   -  Words highlighted in red have been changed or deleted.
@@ -57,15 +66,17 @@ __You did it! Good job!__
 5. In the bottom left hand corner of the page type something in the "summary" section such as "test 1". You can also type information in the comments section, but you don't have to. You will then be able to commit the changes.
 6. Once the work is committed - go to the section in the top middle of the desktop app and click "push origin"
 7. Congratulations! you have pushed your edited repository to your github page! You can now go to your github site and look at your work online!
+
+#### Deleting these instructions
 8. Now is the time to delete these instructions in the README.md file. When that is complete push your changes to github. Now your project is published and you are ready to start adding in your project files!
 
+__Note:__ Below is the template you will be using for all of your projects. Just clone this repo every time you start a new one
 
-__Note:__ Below is the template you will be using for all of your projects. Just clone this tutorial every time you start a new one
+[comment]: <> (Template below here, you can delete this line and everything below it.)
 
+# [Insert Title Here] For example: Chicken wing-spans in relation to their Jurassic Ancestors
 
-### [Insert Title Here] For example: Chicken wing-spans in relation to their Jurassic Ancestors
-
-[Insert Date Here]:
+[Insert Date Here]
 
 **Author:** [Author Name Here]
 
