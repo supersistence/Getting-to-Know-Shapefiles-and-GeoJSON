@@ -1,4 +1,4 @@
-s# Understanding Scripting, Scraping, APIs, and Databases
+# Understanding Scripting, Scraping, APIs, and Databases
 
 11/7/2017
 
