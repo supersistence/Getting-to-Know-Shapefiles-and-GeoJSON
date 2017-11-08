@@ -74,11 +74,11 @@ __Note:__ Below is the template you will be using for all of your projects. Just
 
 [comment]: <> (Template below here, you can delete this line and everything below it.)
 
-# [Insert Title Here] For example: Chicken wing-spans in relation to their Jurassic Ancestors
+# Understanding Scripting, Scraping, APIs, and Databases
 
 11/7/2017
 
 **Author:** Hunter Heaivilin
 
 
-__*Project Description:*__ [Project Description Here] For example: Analyzing present day *Chicken's* wing-spans in comparison to Jurassic era *Dinosaurs.*
+__*Project Description:*__ Understanding command line-based applications, basic scripting, databases, web resources, APIs, and data warehouses so that I can download data from websites, connect to and query databases, interface with APIs, and web scrape.
