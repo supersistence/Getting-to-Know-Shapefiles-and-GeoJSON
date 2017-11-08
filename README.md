@@ -76,9 +76,9 @@ __Note:__ Below is the template you will be using for all of your projects. Just
 
 # [Insert Title Here] For example: Chicken wing-spans in relation to their Jurassic Ancestors
 
-[Insert Date Here]
+11/7/2017
 
-**Author:** [Author Name Here]
+**Author:** Hunter Heaivilin
 
 
 __*Project Description:*__ [Project Description Here] For example: Analyzing present day *Chicken's* wing-spans in comparison to Jurassic era *Dinosaurs.*
