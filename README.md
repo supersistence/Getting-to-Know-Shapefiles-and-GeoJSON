@@ -1,8 +1,12 @@
-# Understanding Scripting, Scraping, APIs, and Databases
+# Getting to Know Shapefiles and GeoJSON
 
-11/7/2017
+2017-11-15
 
 **Author:** Hunter Heaivilin
 
 
-__*Project Description:*__ Understanding command line-based applications, basic scripting, databases, web resources, APIs, and data warehouses so that I can download data from websites, connect to and query databases, interface with APIs, and web scrape.
+__*Project Description:*__ Understanding the structure of the shapefile and GeoJSON geospatial file formats. Exploring conversion methods from shapefile to GeoJSON.
+
+Project includes
+- descriptions of .shp and .geojson files
+- feedback on online .shp to .geojson conversion tools
