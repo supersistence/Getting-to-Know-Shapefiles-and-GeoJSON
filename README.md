@@ -37,6 +37,7 @@ An ESRI shapefile consists of:
 - **The main file, the index file, and the dBASE file have the same prefix.** For example, counties.shp, counties.shx, and counties.dbf. The prefix must start with an alphanumeric character (a–Z, 0–9), followed by zero or up to seven characters (a–Z, 0–9, _, -).
 - There can also be projection files. (suffix .prj)
 
+---
 
 ### Getting to know JSON & GeoJSON
 
@@ -53,7 +54,25 @@ GeoJSON is a "geospatial data interchange format based on JSON" and it defines s
 - GeoJSON has 7 different "geometry types", each represented as case-sensitive strings:
    - "Point", "MultiPoint", "LineString", "MultiLineString", "Polygon", "MultiPolygon", and "GeometryCollection".
 
-
-
 ##### More Learning
 A far more informed take on GeoJSON file formats can be found [here](https://macwright.org/2015/03/23/geojson-second-bite.html).
+
+### Attempting to Convert a Shapefile to GeoJSON
+I tried a few different online tools to convert some [public data shapefiles](http://planning.hawaii.gov/gis/download-gis-data-expanded/) to GeoJSON.
+
+#### [Mapshaper](http://mapshaper.org/)
+- Mapshaper quickly uploaded my data
+- Upon upload it showed the polygons of the entire dataset and could be zoomed into and around
+- When I attempted to export my data as a GeoJSON file, the file downloaded as a .json file.
+
+#### [MyGeodata Converter](https://mygeodata.cloud/converter/)
+- MyGeodata Converter uploaded my data fairly quickly.
+- Handily it has a viewer with a bounding box of the spatial extent the file overlaid a basemap
+- Unhandily it has a paywall and would only export a sample of the file
+- Importantly it did export the file as .geojson
+
+#### [ogr2ogr web client](https://ogre.adc4gis.com/)
+- Never got this to work right
+
+
+---
