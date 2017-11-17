@@ -58,7 +58,23 @@ GeoJSON is a "geospatial data interchange format based on JSON" and it defines s
 A far more informed take on GeoJSON file formats can be found [here](https://macwright.org/2015/03/23/geojson-second-bite.html).
 
 ### Attempting to Convert a Shapefile to GeoJSON
-I tried a few different online tools to convert some [public data shapefiles](http://planning.hawaii.gov/gis/download-gis-data-expanded/) to GeoJSON.
+I tried a few different online tools to convert a shapefile of the [Statewide Agricultural Land Use Baseline 2015 Study](http://hdoa.hawaii.gov/salub/) ([downloaded here](http://planning.hawaii.gov/gis/download-gis-data-expanded/) to GeoJSON.
+
+
+
+The zipped shapefile (2015AgBaseline.shp.zip) is 11.8 mb, while the unzipped folder (2015AgBaseline.shp) is 19 mb.
+Within the unzipped file are 9 files:
+- **2015AgBaseline.CPG**
+- **2015AgBaseline.dbf** which is a database file containing attributes that can be associated with the shapefile
+- **2015AgBaseline.lyr**		
+- **2015AgBaseline.prj** which is the layer projection data
+- **2015AgBaseline.sbn**		
+- **2015AgBaseline.sbx**
+- **2015AgBaseline.shp** which is the shapefile containing the geospatial features
+- **2015AgBaseline.shp.xml** which is an xml version of the entire metadata of the shapefile
+- **2015AgBaseline.shx**
+- **2015AgBaseline_Protocols.pdf** which explains the reserach protocols
+- **aglanduse_2015.pdf** which is the metadata file explaining the shapefile
 
 #### [Mapshaper](http://mapshaper.org/)
 - Mapshaper quickly uploaded my data
